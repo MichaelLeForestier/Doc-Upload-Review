@@ -362,10 +362,4 @@ A: It depends on the model:
 
 ---
 
-## 📞 Support
-
-For issues, questions, or feature requests:
-- [Create an Issue](https://github.com/YOUR_USERNAME/Lor/issues)
-- Email: support@example.com
-
 
