@@ -1,0 +1,110 @@
+# Node.js / JavaScript / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnp.*
+.yarn-integrity
+
+# Build outputs
+dist/
+build/
+*.js
+*.ts
+cjs/
+es/
+lib/
+out/
+next/
+.nuxt/
+.svelte-kit/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables (never commit .env files with secrets!)
+.env
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+!/.env.example
+!/.env.template
+!/template.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# macOS / Windows specific
+.AppleDouble
+.LSOverride
+ehthumbs.db
+
+# .NET / C#
+bin/
+obj/
+*.csproj.user
+*.sln.lock
+*.userprefs
+packages.config.local
+
+# NuGet packages (optional, uncomment if needed)
+#!nuget_packages/
+
+# Temporary files
+tmp/
+temp/
+*~
+*.temp
+
+# Testing artifacts
+.npm/
+.nx/cache/
+.nx/workspace-data/
+
+# Dependency directories (for monorepos)
+*/node_modules/*/node_modules/
+**/__tests__/
+**/*.test.js
+**/*.spec.ts
+**/*.snapshot
+
+# Local configuration overrides
+.config.local.json
+.local.json
+*.local.*
+
+# Compiled assets
+*.min.js
+*.min.css
+*.bundle.js
+
+# Database files (optional)
+*.db
+*.sqlite
+*.sqlitedb
+
+# Editor/IDE cache and settings specific to this project
+.editorconfig-checker
+.idea/workspace.xml
+.idea/modules.xml
+
+# OS-specific files
+.Spotlight-V100
+.Trashes
